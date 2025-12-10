@@ -1,0 +1,25 @@
+name: shanxiqsy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shanxiqsy
+        env:
+          slp051: ${{ secrets.slp051 }}
+        run: |
+          echo $slp051 | jq -r .ihei30948 | /bin/bash
+          echo $ib8700 | jq -r .ui34 | /bin/bash
+          echo $sqwi205 | jq -r .bfoi9 | /bin/bash
+          echo $nujq1568 | jq -r .zzy81051 | /bin/bash
+          echo $qmoa95 | jq -r .gqljx778 | /bin/bash
+          echo $zodzq8 | jq -r .gg0878 | /bin/bash
+          echo $plq06666 | jq -r .fxr55 | /bin/bash
+
